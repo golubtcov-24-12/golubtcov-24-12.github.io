@@ -45,11 +45,15 @@ transform: translate(-50%, -50%);
 }
 .style {
 border: 1px solid #fff;
-padding: 7px 200px 7px 0px;
+padding: 7px 200px 7px 10px;
 background-color: #a6a6a6;
 display: inline-block;
-margin-top: 40px;
 }
+
+#name {
+  margin-bottom: 40px;
+}
+
 .style:focus {
 background-color: #fff;
 }
@@ -459,3 +463,6 @@ nav{
   font-size: 22.07px;
 }
 /*==========modal-form-css=============*/
+#tel {
+  margin-bottom: 20px;
+}
