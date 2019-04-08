@@ -26,16 +26,19 @@ display: flex;
 flex-direction: column;
 align-items:flex-start;
 }
-/* .btn {
-background-color: red;
+.btn {
+background-color: yellow;
 padding: 10px 50px 10px 50px;
 text-transform: uppercase;
 margin-top: 20px;
 margin-left: 120px;
-} */
+border: 1px solid black;
+}
 #popup {
+border-radius: 10px;
+border: 2px solid black;
 padding: 150px 30px 30px 50px;
-background-color: #FFD700;
+background-color: #fff;
 position: absolute;;
 width: 500px;
 height:500px;
@@ -44,18 +47,15 @@ top: 50%;
 transform: translate(-50%, -50%);
 }
 .style {
-border: 1px solid #fff;
+border-radius: 5px;
+border: 1px solid black;
 padding: 7px 200px 7px 10px;
-background-color: #a6a6a6;
+background-color: #fff;
 display: inline-block;
 }
 
 #name {
   margin-bottom: 40px;
-}
-
-.style:focus {
-background-color: #fff;
 }
 .close {
 margin-top: -140px;
