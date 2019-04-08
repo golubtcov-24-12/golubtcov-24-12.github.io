@@ -53,7 +53,9 @@ padding: 7px 200px 7px 10px;
 background-color: #fff;
 display: inline-block;
 }
-
+.style:hover {
+box-shadow: 0px 0px 2px 0px;
+}
 #name {
   margin-bottom: 40px;
 }
