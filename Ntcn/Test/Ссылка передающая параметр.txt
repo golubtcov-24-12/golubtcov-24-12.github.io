@@ -1,1 +1,0 @@
-domain.com\index2.php?sub=<?=$_GET['code']?>
