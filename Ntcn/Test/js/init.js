@@ -17,3 +17,4 @@ function showDiv(idInfo) {
   document.getElementById('room'+idInfo).style.display = 'block';
 }
 
+
